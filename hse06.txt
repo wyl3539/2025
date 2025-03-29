@@ -1,0 +1,31 @@
+bz sampling:
+  number of bz points: 36
+  number of ibz points: 12
+  your k-points are not as symmetric as your crystal!
+  monkhorst-pack size: [6, 6, 1]
+  monkhorst-pack shift: [0, 0, 0]
+  points and weights: [
+    [[  0.08333333,  -0.08333333,   0.00000000], 0.05555556],  # 0
+    [[  0.08333333,   0.08333333,   0.00000000], 0.05555556],  # 1
+    [[  0.25000000,  -0.25000000,   0.00000000], 0.05555556],  # 2
+    [[  0.25000000,  -0.08333333,   0.00000000], 0.11111111],  # 3
+    [[  0.25000000,   0.08333333,   0.00000000], 0.11111111],  # 4
+    [[  0.25000000,   0.25000000,   0.00000000], 0.05555556],  # 5
+    [[  0.41666667,  -0.41666667,   0.00000000], 0.05555556],  # 6
+    [[  0.41666667,  -0.25000000,   0.00000000], 0.11111111],  # 7
+    [[  0.41666667,  -0.08333333,   0.00000000], 0.11111111],  # 8
+    [[  0.41666667,   0.08333333,   0.00000000], 0.11111111],  # 9
+    # ...
+    [[  0.41666667,   0.41666667,   0.00000000], 0.05555556]]  # 11
+
+Occupied bands: 14
+Transforming wave functions from IBZ to BZ: 0.028 seconds
+Distributing wave functions and iFFT-ing to real space: 0.194 seconds
+Calculating eigenvalues:
+  k-points: 50
+  Bands: 0-16 (inclusive)
+  Seconds: 76.068 (wave-function broadcasting: 0.178 seconds)
+HSE06-eigenvalue shifts:
+  min: -3.802 eV
+  ave: -0.840 eV
+  max: 1.121 eV
